@@ -70,11 +70,6 @@ h6 {
      border: solid 5px blue;
 }
 
-.container {
-    display: inline block;
-    margin-top: 230px;
-
-}
 .col-1 {
     width: 1000px; height: 600px; border: solid red;
     width: 146px; height: 300px; background-color: rgba(40, 155, 30, 0.801); float: left;
@@ -125,21 +120,7 @@ h6 {
     font-style: italic;
     size: 100px;
 }
-.font-1 @font-face {
-    src: url(fonts/group-3_learn/bpg-dedaena-block-master);
-    font-family: 'BPG DedaEna Block';
-    src: url('../C:\Users\GIORGI\Desktop\bero\bpg-dedaena-block-master'); /* IE9 Compat Modes */
-}
-.font-1 {
-    font-family:;
-    src: url(fonts/group-3_learn/bpg-dedaena-block-master);
-    font-family: 'BPG DedaEna Block';
-    src: url('../C:\Users\GIORGI\Desktop\bero\bpg-dedaena-block-master');
- }
-.giorgi {
-    color: black
-    font-family:;
-    src: url(fonts/group-3_learn/bpg-dedaena-block-master);
-    font-family: 'BPG DedaEna Block';
-    src: url('../C:\Users\GIORGI\Desktop\bero\bpg-dedaena-block-master');
-}
+
+
+
+ 
