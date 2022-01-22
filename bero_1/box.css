@@ -1,70 +1,89 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+header {
+    background-color: rgb(180, 180, 19);
+    padding: 15px;
+    box-shadow: 0 0 3px rgb(219, 124, 16);
+    border-radius: 40px;
+}
 .body{
-    background-color: white;
-    min-height: 300vh;
+    background-image: url(./fille/12345.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.heaferN2 {
-    display: block;
-    top: 0%;
-    margin-top: 30px;
-    background-color: red;
-    height: 100px;
-    width: 100%;
-    border-radius: 20px;
+header li {
+    display: inline;
+    padding-left: 45px;
+}
+header li a:hover {
+   color: rgb(18, 31, 219);
+}
+header li a{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li img {
+    width: 65px;
+    float: left;
+    margin-top: -20px;
+}
+header ul #contact a {
+    color: #fff;
+    background-color: rgba(224, 9, 9, 0.938);
+    border-radius: 30px;
+    float: right;
     position: relative;
-    text-align:center;  
+    top: -15px;
+    transition: .3s ease;
 }
 
-.gio-1 {
-    margin-top: 30px;
-    background-color: rgba(255, 238, 0, 0.904);
-    height: 50px;
+.auth-for-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid white;
+    margin: auto;
+    padding: 15px; 
+    box-sizing: border-box; 
+    padding: 15px;
+    padding-right: 15px;
+    border-color: chartreuse;
+}
+.from-group {
+    display: block;
+    margin-bottom: 5px;
+}
+.from-oupgr {
+    margin-bottom: 5px; 
+    margin-bottom: 15px;
+}
+.texst-input {
+    box-sizing: border-box; 
+    display: block;
+}
+.auth-for-container label {
+display: block;
+margin-bottom: 7px;
+}
+.from-group {
+    margin-bottom: 15px;
+}
+.auth-for-container input {
+    height: 30px;
     width: 100%;
-    font-size: 20px;
-    border-radius: 20px;
-    position: sticky;
-    text-align:center;  
 }
-
- #giorgi font {
-     width: 100px;
-     height: 600px;
-      border: solid rebeccapurple;
-     position: relative;
-     right: 50%;
-     margin-top: 150px;
-     color: black;
- }
-
- .container-2{
-    text-align:center;
-    color:black;
-    left: 50%;
-    position: sticky;
-    background-color: rgb(165, 9, 157);
-    margin-top: 70px;
-    width: 1000px; height: 500px; border: solid red;
-    }
-.col-1,.col-2,.col-3,.col-4 {
-    width: 1000px; height: 600px; border: solid red;
-    width: 146px; height: 300px; background-color: rgb(139, 46, 77); float: left;
-    border: 2px solid black ;
-    padding: 40px;
-    margin: 10px;
+.whole{
+    display: flex;
+    justify-content: space-between;
 }
-.info-1,.info-2,.info-3,.info-4{
-    right: 50%;
-    background-color: rgb(165, 9, 157);
-    margin-top: 15px;
-    width: 850px; height: 80px; border: solid red;
+.first{
+    display: flex;
 }
-.container-1 {
-    left: 40%;
-    text-align:center;
-    color:black;
+.second{
+    display: flex;
 }
-    
-.info-1,.info-2.info-3,.info-4{
-    position: sticky;
-}
-
