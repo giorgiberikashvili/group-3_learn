@@ -43,40 +43,6 @@ header ul #contact a {
     transition: .3s ease;
 }
 
-.auth-for-container {
-    width: 300px;
-    min-height: 200px;
-    border: 1px solid white;
-    margin: auto;
-    padding: 15px; 
-    box-sizing: border-box; 
-    padding: 15px;
-    padding-right: 15px;
-    border-color: chartreuse;
-}
-.from-group {
-    display: block;
-    margin-bottom: 5px;
-}
-.from-oupgr {
-    margin-bottom: 5px; 
-    margin-bottom: 15px;
-}
-.texst-input {
-    box-sizing: border-box; 
-    display: block;
-}
-.auth-for-container label {
-display: block;
-margin-bottom: 7px;
-}
-.from-group {
-    margin-bottom: 15px;
-}
-.auth-for-container input {
-    height: 30px;
-    width: 100%;
-}
 .whole{
     display: flex;
     justify-content: space-between;
@@ -90,3 +56,15 @@ margin-bottom: 7px;
 .giorgi font p{
 font-size: 15px;
 }
+
+/* .auth-for-container1 {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid white;
+    margin: auto;
+    padding: 15px; 
+    box-sizing: border-box; 
+    padding: 15px;
+    padding-right: 15px;
+    border-color: chartreuse;
+} */
