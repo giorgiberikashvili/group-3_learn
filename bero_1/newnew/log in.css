@@ -1,0 +1,41 @@
+.color-1{
+    background-image: url(./fille/win\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+.auth-for-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid white;
+    margin: auto;
+    padding: 15px; 
+    box-sizing: border-box; 
+    padding: 15px;
+    padding-right: 15px;
+    border-color: chartreuse;
+}
+.from-group {
+    display: block;
+    margin-bottom: 5px;
+}
+.from-oupgr {
+    margin-bottom: 5px; 
+    margin-bottom: 15px;
+}
+.texst-input {
+    box-sizing: border-box; 
+    display: block;
+}
+.auth-for-container label {
+display: block;
+margin-bottom: 7px;
+}
+.from-group {
+    margin-bottom: 15px;
+}
+.auth-for-container input {
+    height: 30px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

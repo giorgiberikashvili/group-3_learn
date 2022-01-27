@@ -17,5 +17,22 @@
     color:black;
 }  
 .info-1,.info-2.info-3,.info-4{
-    position: sticky;
+    /* position: sticky; */
+}
+
+
+.nav {
+    /* position: fixed; */
+    min-height: 300px;
+}
+
+
+.gio-1 {
+    position:sticky;
+   
+}
+
+.windows {
+    /* position: fixed; */
+   padding: 10px;
 }

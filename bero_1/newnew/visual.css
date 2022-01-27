@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: #2c2c32;
+}
+
+.d-flex {
+    display: flex;
+    
+}
+.container {
+    margin-inline: auto;
+    width: 800px;
+    /* background-color: darkslategrey; */
+    text-align: center;
+}
+.justify-content-betwwen {
+    justify-content: space-between;
+}
+nav {
+    height: 100%;
+}
+
+nav .d-flex {
+    gap: 15px;
+}
+head a:hover {
+    color: darkred;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.align-items center {
+    align-items: center;
+}
+.notification-block {
+    text-align: center;
+    padding-block: 5px;
+    background-color: darkblue;
+    color: white;
+}
+.notification-block p {
+    margin: 0;
+    font-size: 14px;
+}
+.notification-block a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.welcome-container .container {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 2fr);
+}
+
+.welcome-container .container div :first-child{
+    text-align: center;
+}
+.welcome-container .container p {
+    text-align: center;
+}
+
+.welcome-container .img {
+    width: 100%;
+}
+.welcome-container {
+    padding-block: 10px;
+    background-color: #2c2c32;
+}
+
+.welcome-container h1 {
+    font-weight: normal;
+    color: white;
+}
+.welcome-container p {
+    color: white;
+}
+
+.welcome-container .download-container {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 58px;
+}
+
+.welcome-container .download-container h5 {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.welcome-container .download-container > div:first-child {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid;
+    color: #2c2c32;
+}
+
+
+.welcome-container .download-container > div:last-child {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tultip-container {
+    font-size: 14px;
+    background-color: #25252b;
+    padding-block: 7px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.tultip-container::after{
+    content: '';
+    background-color: #25252b;
+    height: 15px;
+    width: 15px;
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 13px;
+    top: -7px;
+}
+
+.tultip-container p {
+    margin: 0;
+}
+
+.tultip-container a {
+    color: blue;
+    text-decoration: none;
+}
+.tultip-container {
+    position: relative;
+}
+
+.ruls-container {
+    margin-top: 15px;
+    font-size: 12px;
+}
+.tultip-container a {
+    color: dodgerblue;
+}
+.tultip-container p  {
+    margin: 0;
+}
+
+.future-conntainer .containner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.future-conntainer .containner img {
+    padding: block 30px;
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+}
+a :hover {
+    background-color: blue;
+}
