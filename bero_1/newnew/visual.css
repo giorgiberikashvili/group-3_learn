@@ -158,12 +158,21 @@ nav a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.future-conntainer .containner img {
-    padding: block 30px;
-    height: 70px;
-    width: 70px;
-    margin: 20px;
+.future-conntainer i {
+    font-size: 70px;
+    margin-bottom: 13px;
 }
-a :hover {
-    background-color: blue;
+.future-conntainer {
+    text-align: center;
+}
+.future-conntainer > div {
+    padding-block: 30px;
+}
+
+.future-conntainer .container >div:hover {
+    background-color: crimson;
+}
+
+.future-conntainer .container >div:first-child:hover {
+    background-color: rgb(11, 4, 97);
 }
