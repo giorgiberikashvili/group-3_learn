@@ -1,0 +1,78 @@
+/* .testimonials-section {
+    display: grid;
+    grid-template-columns:repeat(3 minmax 0 ,1fr) ;
+} */
+.user-card {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr); 
+    grid-column-gap: 15px; 
+}
+
+.user-card .avatary {
+    width: 63px;
+    height: 63px;
+    border-radius: 100%; 
+}
+.welcome-container .img {
+    width: 100%;
+}
+.welcome-container {
+    padding-block: 10px;
+    background-color: #2c2c32;
+}
+
+.welcome-container h1 {
+    font-weight: normal;
+    color: white;
+}
+.welcome-container p {
+    color: white;
+}
+
+.welcome-container .download-container {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 58px;
+}
+
+.welcome-container .download-container h5 {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.welcome-container .download-container > div:first-child {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid;
+    color: #2c2c32;
+}
+.user-card .text-container .user-name {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.user-card .text-container h6 {
+    margin: 0;
+    font-size: 18px;
+}
+.user-card .text-container p {
+    margin: 0;
+}
+.user-card .text-container h6 span {
+    color: gray;
+    font-weight: normal;
+}
+.info-section:nth-child(odd) > div div:first-child {
+    order: 2;
+}
+.info-section:nth-child(odd) > div div:last-child {
+    order: 1;
+}
