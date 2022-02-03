@@ -5,9 +5,7 @@ nav a {
 head a:hover {
     color: darkred;
 }
-/* .download-container {
-    padding-right: 12px;
-} */
+
 a {
     text-align: center;
 }
@@ -63,9 +61,6 @@ body {
 .future-conntainer  .container > div:hover {
      background-color: rgb(10, 95, 91);
 }
-/* .future-conntainer  .container > div :hover i{
-    background-color: rgb(10, 95, 91);
-} */
 
 .future-conntainer  .container  >div:first-child:hover  {
     color: darkgreen;
@@ -114,7 +109,6 @@ body {
 .welcome-container .container {
     display: grid;
     grid-template-columns: 1fr minmax(0, 2fr);
-   /* padding: 12px; */
 }
 
 .welcome-container .container div :first-child{
@@ -131,9 +125,7 @@ body {
     font-size: 47px;
     top: 80px;
 }
-/* .testimonials-section > div .qwert .fas .fa-arrow-left {
-    left: -50px;
-} */
+
 .testimonials-section > div .fa-arrow-left{
     right: -50px;
 }

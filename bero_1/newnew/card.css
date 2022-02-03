@@ -1,13 +1,9 @@
-/* .testimonials-section {
-    display: grid;
-    grid-template-columns:repeat(3 minmax 0 ,1fr) ;
-} */
+
 .user-card {
     display: grid;
     grid-template-columns: 72px minmax(0, 1fr); 
     grid-column-gap: 15px; 
 }
-
 .user-card .avatary {
     width: 63px;
     height: 63px;

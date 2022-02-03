@@ -19,13 +19,10 @@
 .d-flex {
     display: flex;
     text-align: center;
-    /* grid-gap: 10px; */
 }
-
 .container {
     margin-inline: auto;
     width: 800px;
-    /* background-color: darkslategrey; */
     text-align: center;
     padding: 23px;
     grid-gap: 12px;
@@ -33,7 +30,6 @@
 .justify-content-betwwen {
     justify-content: space-between;
 }
-
 .place {
     height: 30px;
     width: 110px;
@@ -42,8 +38,6 @@
     color: white;
     display: flex;
 }
-
-
 .right{
     width: 40%;
     display: flex;
@@ -67,7 +61,6 @@
     color: white;
     font-size: 22px;
 }
-
 .welcome-container .download-container > div:last-child {
     align-items: center;
     display: flex;
@@ -80,7 +73,6 @@
     border-radius: 10px;
     margin-top: 15px;
 }
-
 .tultip-container::after{
     content: '';
     background-color: #25252b;
@@ -92,19 +84,13 @@
     right: 13px;
     top: -7px;
 }
-
-/* .tultip-container p {
-    margin: 0;
-} */
-
-/* .tultip-container a {
-    color: rgb(49, 49, 122);
-    text-decoration: none;
-} */
+.os-version {
+    display: grid;
+    grid-template-columns: repeat(3 minmax(0, 1fr) ) ;
+}
 .tultip-container {
     position: relative;
 }
-
 .ruls-container {
     margin-top: 15px;
     font-size: 12px;
@@ -115,7 +101,13 @@
 .tultip-container p  {
     margin: 0;
 }
-
+.os-version .mane-img {
+width: 100px;
+}
+.os-version .btn {
+    background-color: dodgerblue;
+    color: white;
+}
 .future-conntainer .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -127,13 +119,59 @@
 .future-conntainer {
     text-align: center;
 }
-
-/* .features-container i {
-    font-size: 65px;
-    margin-bottom: 15px;
-} */
-
-/* .testimonials-section .container-d-flex {
+.os-windows .container{
+    position: relative;
     display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-} */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 15px;
+}
+.os-windows .gggt {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+.os-windows .btn {
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.win-wersion {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 15px;
+
+}
+.img-windows {
+    width: 100px;
+}
+.botn {
+    background-color: dodgerblue;
+    color: white;
+}
+.os-windows .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 15px;
+    padding: 0px;
+  }
+  table {
+    padding-left: 569px;
+  }
+  .tbody-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 15px;
+    padding: 0px; 
+  }
+  
+  
