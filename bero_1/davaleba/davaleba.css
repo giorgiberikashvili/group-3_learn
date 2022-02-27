@@ -98,7 +98,7 @@ nav a {
     border-radius: 20px;
 }
 .grid3 img {
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .grid4 img {
     padding-right: 10px;
@@ -259,7 +259,11 @@ nav a {
         grid-template-columns: 1fr;
         width: 768px;
     }
+    .grid img {
+        margin-top: 3%;
+    }
 }
+
 @media screen and (max-width: 576px ) {
     .phoun {
         grid-template-columns: 1fr;
@@ -279,6 +283,12 @@ nav a {
     }
 }
 @media screen and (max-width: 576px ) {
+    .intel {
+        margin-top: 1%;
+    }
+    .gmail {
+        margin-left: 33%;
+    }
     .intel {
         margin-top: 1%;
     }

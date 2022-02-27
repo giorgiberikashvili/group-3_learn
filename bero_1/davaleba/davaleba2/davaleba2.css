@@ -60,7 +60,8 @@ nav i {
     color: white;
 }
 .delta {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 17%;
     color: white;
 }
@@ -78,8 +79,7 @@ nav i {
 .pading1 {
     color: white;
     padding-left: 17%;
-    margin-top: 97px; 
-    /*! margin-bottom: -22px; */
+    margin-top: 97px;
 }
 
 .img {
@@ -87,10 +87,11 @@ nav i {
 }
 
 .bero {
-    display: flex;
+    display: grid;
     color: white;
     padding-left: 19%;
     padding-top: 1%;
+    grid-template-columns: 1fr 2fr;
 }
 
 .bero small {
@@ -100,14 +101,15 @@ nav i {
 
 .bero .bero2 {
     padding-top: 14%;
-    margin-left: 7%;
+    margin-left: 1%;
 }
 
 .pepsi  {
-    display: flex;
+    display: grid;
     color: white;
     padding-left: 17%;
-    padding-top: 10%
+    padding-top: 10%;
+    grid-template-columns: 2fr 2fr;
 }
 
 .pepsi .pepsi2 {
@@ -171,4 +173,28 @@ nav i {
 }
  .brands i {
     padding-left: 8%;
+ }
+
+ @media screen and (max-width: 992px) {
+     .delta {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+     }
+     .bero {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     .pepsi {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     .pepsi img {
+         margin-top: 7%;
+     }
+     .pasat img {
+         width: 100%;
+         margin-left: -8%;
+         text-align: center;
+       }
+     }
  }
