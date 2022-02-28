@@ -11,13 +11,25 @@ header {
     height: 5vh;
     background-color: darkgrey;
 }
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     width: 80%;
     color: white;
     padding-block: 14px;
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    /*! text-align: center; */
+    width: 80%;
+    color: white;
+    padding-block: 14px;
+    margin: auto;
+}
+.for_i p{
+    margin-left: 20px;
 }
 
 nav div a {
@@ -27,10 +39,10 @@ nav div a {
 
 nav div a p {
     margin-top: -18px;
-    padding-left: 159px;
+    padding-left: 19px;
 }
 nav a {
-    padding-left: 15px;
+    padding-left: 0px;
     text-decoration: none;
     text-align: center;
 }
@@ -44,7 +56,10 @@ nav i {
     background-color: white;
     margin-top: 10%;
 }
-
+.imgi{
+    width: 100%;
+    margin-top: 40px;
+}
 .line2 {
     display: inline;
     height: 1px;
@@ -196,5 +211,20 @@ nav i {
          margin-left: -8%;
          text-align: center;
        }
+     }
+ }
+ @media screen and (max-width: 398px){
+     .nav{
+         width: 100%;
+     }
+     nav a{
+         padding-left: 0px;
+     }
+     .bero ,
+     .pepsi ,
+     .prasi ,
+     .pasat 
+     {
+         padding-left: block;
      }
  }
