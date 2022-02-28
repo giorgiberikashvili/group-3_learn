@@ -204,56 +204,45 @@ nav a {
 }
 
 @media screen and (max-width: 994px ) {
-    .grid {
-        width: 768px;
-    }
-}
-@media screen and (max-width: 994px ) {
-    .phoun {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-@media screen and (max-width: 994px ) {
-    .grid3  {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 994px ) {
     .grid4  {
         grid-template-columns: 1fr;
         width: 100%;
     }
-}@media screen and (max-width: 994px ) {
     .grid {
         padding-top: 1%;
         width: 768px;
     }
+    .grid3  {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .phoun {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .grid {
+        width: 768px;
+    }
 }
+    
 @media screen and (max-width: 768px ) {
     .phoun {
         grid-template-columns: 1fr;
         width: 100%;
     }
-
-@media screen and (max-width: 768px ) {
+    .grid4  {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .contain {
+        width: 100%;
+    }
     .grid3  {
         grid-template-columns: 1fr;
         width: 100%;
     }
 }
-@media screen and (max-width: 768px ) {
-    .grid4  {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 768px ) {
-    .contain {
-        width: 100%;
-    }
-}
+   
 @media screen and (max-width: 994px ) {
     .grid {
         grid-template-columns: 1fr;
@@ -263,33 +252,26 @@ nav a {
         margin-top: 3%;
     }
 }
-
-@media screen and (max-width: 576px ) {
-    .phoun {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
 @media screen and (max-width: 576px ) {
     .grid3  {
         grid-template-columns: 1fr;
         width: 100%;
     }
-}
-@media screen and (max-width: 576px ) {
     .grid4  {
         grid-template-columns: 1fr;
         width: 100%;
     }
-}
-@media screen and (max-width: 576px ) {
+    .phoun {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
     .intel {
         margin-top: 1%;
     }
     .gmail {
         margin-left: 33%;
     }
-    .intel {
+    .qwe {
         margin-top: 1%;
     }
 }
