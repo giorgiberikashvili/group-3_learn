@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ceb9a766;
+    color: black;
+}
+
+ul {
+    color: white;
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    text-decoration: none;
+    gap: 25px;
+}
+
+ul li {
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.singin {
+    width: 74px;
+    height: 3vh;
+    background-color: coral;
+    border-radius: 13px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.singin h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.dog {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: black;
+}
+
+.left {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 45%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #ceb9a766;
+    padding-top: 4%;
+}
+
+.grid .dog {
+    border-radius: 100%;
+    width: 68px;
+    height: 69px;
+    padding-left: -4px;
+}
+.grid .dog2 {
+    border-radius: 103%;
+    width: 63px;
+    height: 65px;
+    margin-left: 77%;
+    margin-top: 2px;
+}
+.pirveli {
+    margin-left: 21%;
+}
+
+.grid .time {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    margin-top: 3%;
+}
+
+.qwer {
+    text-align: center;
+    padding: auto;
+}
+
+.pirveli p {
+    color: #9b9b9b;
+}
+
+.asdfg {
+    margin-top: 5%;
+}
+
+.meore {
+    margin-right: 15%;
+}
+
+.up {
+    width: 53px;
+    height: 55px;
+    border-radius: 100%;
+    margin-left: 103%;
+}
+
+.down {
+    width: 100%;
+    box-sizing: border-box;
+    height: 91%;
+    margin-top: -33px;
+    border-radius: 30px;
+}
+
+.content {
+    width: 112px;
+    height: 4vh;
+    background-color: coral;
+    border-radius: 13px;
+    margin-top: 5%;
+}
+.content h3 {
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.singin a{
+    color: rgb(35, 36, 34);
+    text-align: center;
+}
+.midn {
+    display: flex;
+    margin-left: 16%;
+    gap: 40px;
+    color: black;
+    font-size: 18px;
+}
+
+.topkek img {
+    padding:px 3px;
+    border-radius: 20px;
+}
+
+.midn a {
+    text-decoration: none;
+    color: rgb(192, 138, 138);
+}
+
+.midn a:hover {
+    color: rgb(154, 130, 180);
+}
+
+.goga {
+    text-align: center;
+    margin-top: 3%;
+}
+.goga h1 {
+    font-size: 63px;
+}
+
+.lkjh {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.sticks {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.sticks i {
+    font-size: 65px;
+    border-radius: 32px;
+}
+
+.sticks div {
+    display: grid;
+    grid-template-columns:15% 30%;
+}
+
+.lenovo {
+    margin-top: 5%;
+}
+
+.grid .topkek {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.grid .topkek img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sticks .avatar {
+    width: 92px;
+    height: 93px;
+    border-radius: 100px;
+}
+
+header{
+    /*! position: fixed; */
+    /*! top: 0; */
+    left: 0;
+    right: 0;
+    background-color: rebeccapurple;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*! z-index: 1000; */
+}
+
+.hero {
+    min-height: 100vh;
+    background: rgb(165, 184, 173) ;
+    background-image: url(./R.jpg);
+}
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(226, 186, 186);
+    font-weight: 700;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.header .navigation ul li {
+    float: left;
+    position: relative;
+}
+
+.header .navigation ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.header .navigation ul li ul {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background:cadetblue;
+    display: none;
+}
+
+.header .navigation ul li ul a {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.header .navigation ul li ul a:hover {
+    background: var(--color-primary-light);
+}
+
+.header .navigation ul li ul li ul {
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+.header .navigation ul li ul li {
+    width: 100%;
+    border-top: 1px solid cornflowerblue;
+}
+
+.header .navigation ul li:hover > ul {
+    display: initial;
+}
+
+.header .navigation ul li ul li span {
+    float: right;
+    color: aquamarine;
+   padding: 5px 10px;
+   float: 12px;
+   text-align: center;
+   border-radius: 5px;
+}
+

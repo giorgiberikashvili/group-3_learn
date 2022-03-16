@@ -1,0 +1,8 @@
+        <div class="right">
+            <form action="" method="get" class="form">
+                <input type="text" placeholder="Search Docs" class="place">
+                <button type="submit" value="submit">
+                    <i class="fas fa-download icon"></i>Download
+                </button>  
+            </form>
+        </div>
